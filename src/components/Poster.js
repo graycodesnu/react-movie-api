@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Poster () {
+export default function Poster ({list}) {
 
   return (
     <>
