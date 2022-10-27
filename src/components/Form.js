@@ -10,10 +10,7 @@ export default function Form ({setPosters}) {
         type="text"
         placeholder="searchsplosion"
       ></input>
-      <button
-        type="submit"
-        onClick={()=> setPosters([])}
-      >Search</button>
++
       <button>Reset</button>
     </form>
     </>
